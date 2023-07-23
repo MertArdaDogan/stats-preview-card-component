@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+:root{
+    --background        :hsl(233, 47%, 7%);
+    --card-background   :hsl(244, 38%, 16%);
+    --accent            :hsl(277, 64%, 61%);
+    --heading           :hsl(0, 0%, 100%);
+    --paragraph         :hsla(0, 0%, 100%, 0.75);
+    --stats-heading     :hsla(0, 0%, 100%, 0.6);
+
+    --fs15              :15px;
+    --font-inter        :"Inter"; 
+    --font-deca         :"Lexend Deca";
+}
+body{
+    background-color: var(--background);
+    max-width: 1440px;
+}
+span{
+    color: var(--accent);
+}
+.card{
+    background-color: var(--card-background);
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    top: 200px;
+    left: 130px;
+    border-radius: 7px;
+}
+.card-overlay{
+    position: absolute;
+    height: 400px;
+    left: 520px;
+    background-color: var(--accent);
+    background-repeat: repeat;
+    border-radius: 0 7px 7px 0;
+}
+.img{
+    filter: contrast(100%);
+    opacity:0.4000;
+    width: 484px;
+    border-radius: 0 7px 7px 0;
+}
+.card-body{
+    margin-left: 60px;
+    padding-top: 40px;
+}
+.card-header{
+    color: var(--heading);
+    font-family: var(--font-inter);
+    font-weight: 400;
+    width: 350px;
+}
+.insights{
+    color: var(--accent);
+}
+.card-text{
+    width: 350px;
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--stats-heading);
+}
+.card-stats{
+    margin-top: 50px;
+}
+.stats{
+    float: left;
+    color: var(--heading);
+    font-family: var(--font-inter);
+    font-weight: 700;
+    font-size: 22px;
+}
+.stats-header{
+    width: 70px;
+    position: relative;
+    top: 5px;
+    right: 60px;
+    margin-top: 50px;
+    float: left;
+    color: var(--stats-heading);
+    font-size: 12px;
+    font-family: var(--font-deca);
+}
+.companies{
+    margin-left: 5px;
+}
+.templates{
+    padding-left: 19px;
+}
+.quries{
+    padding-right: 10px;
+}
