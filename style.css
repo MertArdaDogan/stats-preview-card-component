@@ -23,8 +23,8 @@ span{
     width: 1000px;
     height: 400px;
     position: relative;
-    top: 200px;
-    left: 130px;
+    top: 260px;
+    left: 100px;
     border-radius: 7px;
 }
 .card-overlay{
@@ -36,8 +36,7 @@ span{
     border-radius: 0 7px 7px 0;
 }
 .img{
-    filter: contrast(100%);
-    opacity:0.4000;
+    opacity: 0.4000;
     width: 484px;
     border-radius: 0 7px 7px 0;
 }
@@ -50,9 +49,6 @@ span{
     font-family: var(--font-inter);
     font-weight: 400;
     width: 350px;
-}
-.insights{
-    color: var(--accent);
 }
 .card-text{
     width: 350px;
