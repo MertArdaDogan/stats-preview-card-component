@@ -92,7 +92,7 @@ span{
         top: 90px;
         left: 10px;
         width: 320px;
-        height: 750px;
+        height: 730px;
     }
     .card-overlay{
         position: initial;
@@ -124,13 +124,29 @@ span{
     }
     .card-stats{
         padding-left: 115px;
+        margin-top: -30px;
     }
     .stats-header{
         float: initial;
         padding-left: 45px;
+        padding-bottom: 10px;
     }
     .companies{
         top: -10px;
         font-size: 11px;
+        margin-bottom: -14px;
+    }
+    .templates{
+        top: 3px;
+        left: -55px;
+    }
+    .quries{
+        top: 5px;
+    }
+    .two{
+        padding-left: 5px;
+    }
+    .there{
+        margin-top: 5px;
     }
 }
