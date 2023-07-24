@@ -89,7 +89,7 @@ span{
 }
 @media all and (max-width: 375px) {
     .card{
-        top: 100px;
+        top: 90px;
         left: 10px;
         width: 320px;
         height: 750px;
