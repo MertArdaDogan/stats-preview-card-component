@@ -13,7 +13,6 @@
 }
 body{
     background-color: var(--background);
-    max-width: 1440px;
 }
 span{
     color: var(--accent);
@@ -87,4 +86,7 @@ span{
 }
 .quries{
     padding-right: 10px;
+}
+@media all and (max-width: 375px) {
+    
 }
