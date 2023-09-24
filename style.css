@@ -21,9 +21,10 @@ span{
     background-color: var(--card-background);
     width: 1000px;
     height: 400px;
-    position: relative;
-    top: 200px;
-    left: 180px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 7px;
 }
 .card-overlay{
@@ -89,8 +90,6 @@ span{
 }
 @media all and (max-width: 375px) {
     .card{
-        top: 90px;
-        left: 10px;
         width: 320px;
         height: 730px;
     }
@@ -148,5 +147,8 @@ span{
     }
     .there{
         margin-top: 5px;
+    }
+    .attribution{
+        top: 820px !important;
     }
 }
